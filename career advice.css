@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family: 'Poppins', sans-serif;
+
+}
+.career-advice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.career-advice{
+    background-color: #2175d9;;
+}
+.career-advice-container h4{
+    color: #fff;
+}
+.career-advice-container h2{
+    font-size: 40px;
+    color: #000;
+    text-transform: capitalize;
+    font-family: var(--font-family);
+    
+}
+.career-advice-container h1{
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+.career-advice-container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.career-advice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 769px) {
+    
+
+    .career-advice-container{
+
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+    
+    
+}

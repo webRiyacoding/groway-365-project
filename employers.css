@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family: 'Poppins', sans-serif;
+
+}
+.employers{
+    background-color:#ffb511 ;
+}
+.employers-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.employers-container h2{
+    font-size: 40px;
+    line-height: 2;
+
+}
+.employers-container p{
+    font-size: 20px;
+}
+.btn-outline-primary{
+    
+    border: 2px solid black!important;
+    padding: 20px 40px!important;
+    color: black!important;
+    font-family: var(--font-family)!important;
+    font-weight: 700;
+}
+.about-first-list ul li,.about-second-list ul li  {
+    line-height: 2.5!important;
+    
+}
+/* ====================deal-breaker=================================== */
+.deal-breaker{
+     /* background: linear-gradient(to right, rgba(247, 32, 32, 0.871), #ad5b4c); */
+    background: url(img/team-meeting.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.all-content{
+    
+    background: linear-gradient(to left, rgba(221, 16, 16, 0.055), #cb2103); 
+    
+
+
+} 
+ .about-first-list ul li,.about-second-list ul li,.about-third-list ul li {
+    
+
+    margin: 0px 50px;
+
+    }
+     
+
+.heading1 {
+    background-color: #fff;
+    width: 40%;
+    color: rgb(7, 7, 213);
+    padding: 20px;
+    font-size: 40px;
+    font-family: var(--font-family);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+} 
+.heading2{
+    color: #fff;
+    width: 40%;
+    background-color: rgb(40, 40, 210);
+    padding: 30px;
+    font-size: 40px;
+    font-family: var(--font-family);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    
+
+}
+.para1{
+    margin-top: 30px;
+    width: 30%;
+}
+.para1 p{
+
+    font-size: 18px;
+    font-weight: 600;
+}
+.my-btn{
+    background-color: transparent!important;
+    border: 2px solid #fff!important;
+    
+    font-size: 18px!important;
+}
+
+@media only screen and (max-width: 769px) {
+
+   .employers-container{
+
+    flex-direction: column;
+   }
+   .heading1 {
+    text-align: center;
+    width: 100%;
+   
+} 
+.heading2{
+    text-align: center;
+    
+    width: 100%;
+    margin-left: 0px;
+   
+
+}
+.para1{
+    margin-top: 30px;
+    width: 100%;
+}
+.about-us{
+    padding: 30px 0px!important;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
+

@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family: 'Poppins', sans-serif;
+
+}
+.hero-section {
+    background-color: rgb(5, 5, 79);
+}
+.left-hero h1{
+    color: #fff;
+}
+.para h6{
+    color: rgba(255, 255, 255, 0.854);
+    font-weight: 400!important;
+    font-family: var(--font-family);   
+}
+.right-hero button{
+    background-color: transparent;
+    border: 2px solid #fff!important;
+    color: #fff;
+}
+
+.client h2{
+padding-bottom: 20px;
+    font-size: 40px;
+
+}
+.client p{
+
+    font-size: 18px;
+    padding-bottom: 50px!important;    
+}
+.our-altimate-goal{
+
+    padding-top: 100px;
+}
+.main-goal-left h1{
+    font-size: 35px;
+
+    height: 2!important;
+}
+/* =====================join-our-team-being-our-career========================================= */
+.deal-breaker{
+
+    margin: 100px 0px;
+    background: url(img/background-join-our-team.png)!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center!important;   
+}
+.all-content{
+    background: none!important;
+    padding: 100px!important;
+    
+}
+.my-btn{
+
+margin-top: 50px!important;
+
+}
